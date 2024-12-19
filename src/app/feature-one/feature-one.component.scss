@@ -1,0 +1,39 @@
+/* Contenedor principal */
+.dashboard-container {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px; /* Máximo ancho permitido */
+    overflow-x: auto;
+    max-height: 600px; /* Scroll horizontal si el contenido excede */
+  }
+  
+  /* Estilos para la tabla */
+  .table {
+    width: 100%; /* Se ajusta al ancho del contenedor */
+    min-width: 600px; /* Asegura que las columnas tengan un mínimo espacio */
+    border-collapse: collapse;
+  }
+  
+  /* Opcional: estilo personalizado para celdas */
+  th, td {
+    white-space: nowrap; /* Evita que el texto se quiebre */
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  /* Alterna colores de filas */
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  /* Hover para filas */
+  tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
